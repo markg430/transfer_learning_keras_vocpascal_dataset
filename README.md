@@ -1,11 +1,16 @@
-# transfer_learning_keras_MobileNetV2
+# Transfer Learning with TF and Keras
 
-Transfer Learning MobileNetV2 with Keras - PASCAL VOC Dataset 
+Transfer Learning and Image Classifier with Keras - PASCAL VOC Dataset 
 
 ## About
 
 This script preprocesses the locally downloaded PASCAL VOC 2007 Dataset and seperates the objects in their respective subfolders.
-The pretrained MobileNetV2 provided by Tensorflow is used for transfer learning while the PASCAL VOC dataset provides more generalised classes for image classification compared to ImageNet.
+The pretrained image classifier model provided by Tensorflow is used for transfer learning while the PASCAL VOC dataset as it provides more generalised classes for image classification compared to ImageNet.
+
+The following classifiers have been looked into:
+
+- EfficientNet-b0
+- MobileNetV2
 
 ## Resources
 
